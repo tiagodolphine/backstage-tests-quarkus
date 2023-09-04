@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-tests-quarkus
+  description: Quarkus project from backstage orchestrator
+  annotations:
+    backstage.io/kubernetes-id: backstage-tests-quarkus
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  system: system:podcast
+  lifecycle: production
+  owner: tiagodolphine
